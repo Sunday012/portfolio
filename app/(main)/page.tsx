@@ -1,11 +1,8 @@
 "use client"
-
 import {motion} from "framer-motion"
-import Link from "next/link"
 
-import {SideItems} from "@/constants"
-
-import {Header} from "./_components/header"
+import { Hero } from "./_components/hero"
+import { About } from "./_components/about";
 const Home = () => {
 const pageVariants = {
     initial:{
@@ -25,18 +22,10 @@ const pageVariants = {
     variants={pageVariants}
     initial="initial"
     animate="animate"
-    className="w-full h-full"
+    className="w-full h-full dark:bg-[#0D1036] bg-gray-100"
     >
-       <Header />
-       <div className="fixed top-0 left-0">
-        {SideItems.map((items) => (
-            <Link
-            href={items.link}
-            >
-            {items.text}
-            </Link>
-        ))}
-       </div>
+       <Hero />
+       <About />
     </motion.div>
   );
 };
