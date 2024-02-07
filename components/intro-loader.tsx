@@ -98,7 +98,7 @@ useEffect(() => {
         }
       }
     return showLoader ? (
-        <div className="absolute right-0 top-0 left-0 w-full h-full bg-[#ffff] dark:bg-[#000000] z-[9999]">
+        <div className="fixed right-0 top-0 left-0 w-full h-[100vh] bg-[#ffff] dark:bg-[#000000] z-[9999]">
         <motion.svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
