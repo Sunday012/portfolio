@@ -4,9 +4,9 @@ import React from "react";
 export const BackgroundItems = () => {
   return (
     <div className="my-4 grid ">
-      <Image src="/next2.png" alt="next.js" width={600} height={100} className="hidden dark:flex"/>
+      <Image src="/next2.png" alt="next.js" width={600} height={100} className="hidden dark:flex lg:w-[600px] w-[300px]"/>
       <Image src="/Next-white.png" alt="next.js" width={500} height={100} className="dark:hidden"/>
-      <Image src="/react2.png" alt="react" width={500} height={100} className="hidden dark:flex"/>
+      <Image src="/react2.png" alt="react" width={500} height={100} className="hidden dark:flex lg:w-[500px] w-[200px]"/>
       <Image src="/react-white.png" alt="react" width={400} height={100} className="dark:hidden"/>
     </div>
   );
@@ -14,10 +14,10 @@ export const BackgroundItems = () => {
 export const BackgroundItems2 = () => {
   return (
     <div className="grid gap-32">
-      <Image src="/github.jpg" alt="next.js" width={500} height={100} className="hidden dark:flex"/>
+      <Image src="/github.jpg" alt="next.js" width={500} height={100} className="hidden dark:flex lg:w-[500px] w-[200px]"/>
       <Image src="/white-github.png" alt="next.js" width={500} height={100} className="dark:hidden"/>
       <div className="flex items-center justify-center">
-        <h1 className="text-5xl font-bold uppercase">Functions</h1>
+        <h1 className="lg:text-5xl text-xl font-bold uppercase">Functions</h1>
       </div>
     </div>
   );
@@ -26,7 +26,7 @@ export const BackgroundItems3 = () => {
   return (
     <div className="grid gap-32">
       <div className="flex items-center justify-center">
-        <h1 className="text-5xl font-bold">ALGORITHM</h1>
+        <h1 className="lg:text-5xl text-xl font-bold">ALGORITHM</h1>
       </div>
       
       <div className="flex items-center justify-start">

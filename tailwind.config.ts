@@ -25,15 +25,21 @@ module.exports = {
           from: { height: "var(--radix-accordion-content-height)" },
           to: { height: 0 },
         },
+        "scrollsm":{
+          from:{left: "translateX(0)"},
+          to:{transform : "translateX(-100%)"}
+        },
         "scroll":{
           from:{left: "translateX(0)"},
-          to:{transform : "translateX(-480%)"}
-        }
+          to:{transform : "translateX(-100%)"}
+        },
+       
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
-        "scroll": "scroll 30s linear infinite "
+        "scroll": "scroll 35s  linear infinite ",
+        "scrollsm": "scrollsm 20s  linear infinite",
       },
     },
   },

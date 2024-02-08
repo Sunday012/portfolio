@@ -1,24 +1,19 @@
 import { ModeToggle } from "@/components/mode-toggle";
+import { Logo } from "@/components/ui/logo";
+import { RxHamburgerMenu } from "react-icons/rx";
 import Image from "next/image"
  export const Header = () => {
   return (
     <div className="flex items-center justify-between px-6">
-        <Image 
-        src="/white-portfolio.svg"
-        alt="logo"
-        width={100}
-        height={10}
-        className="dark:hidden w-20"
-        />
-        <Image 
-        src="/dark-portfolio.svg"
-        alt="logo"
-        width={100}
-        height={10}
-        className="hidden dark:block w-20"
-        />
+     <Logo />
+     <div className="lg:flex hidden items-center gap-6 dark:text-[silver] text-black">
       <h1 className="">Home</h1>
+      <h1 className="">Home</h1>
+      <h1 className="">Home</h1>
+      <h1 className="">Home</h1>
+     </div>
       <ModeToggle />
+      <RxHamburgerMenu className="flex lg:hidden" size={24}/>
     </div>
   );
 };
