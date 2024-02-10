@@ -50,7 +50,7 @@ export const Hero = () => {
             />
           </div>
         </div>
-        <div className="sm:flex fixed flex-col gap-3 mt-[70vh] top-0 left-0 ml-[64px] hidden">
+        <div className="sm:flex fixed gap-3 mt-[90vh] top-0 left-0 ml-[64px] hidden">
           {SideItems.map((items, index) => (
             <Link href={items.link} key={index} className="text-[#47eaff]">
               <Icon icon={items.src}/>
