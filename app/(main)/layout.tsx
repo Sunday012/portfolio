@@ -1,6 +1,7 @@
 "use client"
 
 import {Loader} from "@/components/intro-loader"
+import { GlowCursor } from "./_components/cursor";
 export default function MainLayout({
     children,
   }: {
@@ -10,6 +11,7 @@ export default function MainLayout({
         <div>
              <Loader />
              <main>
+              <GlowCursor />
             {children}
              </main>
         </div>

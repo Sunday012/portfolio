@@ -25,7 +25,7 @@ export const Hero = () => {
             Favour Sunday.
           </h1>
           <h2 className="dark:text-[#9e9b9b] text-black lg:text-5xl text-4xl font-bold lg:w-[90%] w-[100%] lg:leading-[64px] lg:mb-8 mb-4 text-nowrap">
-            FrontEnd Developer, <br className="flex lg:hidden"/>Plays Chess
+            FrontEnd Developer, who <br className="flex"/>Loves Playing Chess
           </h2>
           <div>
             <span className="text-[#47eaff]">Fun Fact</span>
