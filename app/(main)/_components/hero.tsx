@@ -19,7 +19,7 @@ export const Hero = () => {
           <span className="dark:text-[#47eaff] text-blue-800 font-semibold text-xl">
             Hello i&apos;m
           </span>
-          <h1 className="dark:text-[#d8d6d6] text-black lg:text-6xl text-4xl font-bold text-nowrap">
+          <h1 className=" text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-[#00d4ff] lg:text-6xl text-4xl font-bold text-nowrap">
             Favour Sunday.
           </h1>
           <h2 className="dark:text-[#9e9b9b] text-black lg:text-5xl text-3xl font-bold lg:w-[90%] w-[100%] lg:leading-[64px] lg:mb-8 mb-4 text-nowrap">
