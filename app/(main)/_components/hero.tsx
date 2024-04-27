@@ -14,7 +14,7 @@ export const Hero = () => {
     <section className="h-[100vh] w-full dark:bg-[#0a0a0a]">
       <div className="absolute top-0 left-0 w-full h-[100vh]">
         <Header />
-        <div className="flex lg:ml-16 ml-0 lg:mt-20 mt-[72px] lg:px-24 px-10 ">
+        <div className="flex lg:ml-16 ml-0 lg:mt-20 mt-[74px] lg:px-24 px-10 ">
           <div className="flex flex-col gap-3">
           <span className="dark:text-[#47eaff] text-blue-800 font-semibold text-xl">
             Hello i&apos;m
@@ -23,7 +23,7 @@ export const Hero = () => {
             Favour Sunday.
           </h1>
           <h2 className="dark:text-[#9e9b9b] text-black lg:text-5xl text-3xl font-bold lg:w-[90%] w-[100%] lg:leading-[64px] lg:mb-8 mb-4">
-            FrontEnd Developer, who <br className="flex"/>Loves Playing Chess
+            FrontEnd Developer,<br className="flex"/>Love Playing Chess
           </h2>
           <div>
             <span className="dark:text-[#47eaff] text-blue-800">Fun Fact</span>
