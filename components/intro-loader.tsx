@@ -12,8 +12,6 @@ useEffect(() => {
 },[])
     const headerVariants = {
         hidden:{
-          x: 0,
-          y: 0,
           opacity: 1
         },
         visible:{
@@ -98,13 +96,14 @@ useEffect(() => {
         }
       }
     return showLoader ? (
-        <div className="fixed right-0 top-0 left-0 w-full h-[100vh] bg-[#ffff] dark:bg-[#000000] z-[9999]">
+        <div className="fixed right-0 top-0 left-0 w-full h-full bg-[#ffff] dark:bg-[#0a0a0a] z-[9999]">
+        <div className="w-full h-full items-center justify-center">
         <motion.svg
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 500.000000 500.000000"
         preserveAspectRatio="xMidYMid meet"
-        className="absolute top-[30%] md:top-[20%]  left-[25%] md:left-[38%] w-[250px] md:w-[350px]"
+        className="w-full h-full"
         variants={headerVariants}
         initial="hidden"
         animate="visible"
@@ -112,7 +111,7 @@ useEffect(() => {
         <g
           transform="translate(0.000000,500.000000) scale(0.100000,-0.100000)"
           stroke="none"
-          className="text-[#000000] dark:text-[#ffff] fill-current"
+          className="text-[#0a0a0a] dark:text-[#ffff] fill-current"
         >
           <motion.path
              variants={pathVariant}
@@ -182,6 +181,7 @@ c165 -1 232 2 256 12 17 7 32 11 32 8 0 -10 65 41 90 70 29 34 52 84 45 96 -3
           />
         </g>
       </motion.svg>
+          </div>
       </div>
     ) : null
 }

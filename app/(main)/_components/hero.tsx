@@ -5,30 +5,28 @@ import { Header } from "./header";
 import { easeIn, easeInOut, easeOut, motion } from "framer-motion";
 
 import { SideItems } from "@/constants";
-import { HeroBackground } from "./herobackground";
 import Image from "next/image";
 import { Icon } from "@/components/icon";
 
 export const Hero = () => {
  
   return (
-    <section className="h-[100vh] w-full">
-      <HeroBackground />
+    <section className="h-[100vh] w-full dark:bg-[#0a0a0a]">
       <div className="absolute top-0 left-0 w-full h-[100vh]">
         <Header />
         <div className="flex lg:ml-16 ml-0 mt-20 lg:px-24 px-10 ">
           <div className="flex flex-col gap-3">
-          <span className="text-[#47eaff] font-semibold text-xl">
+          <span className="dark:text-[#47eaff] text-blue-800 font-semibold text-xl">
             Hello i&apos;m
           </span>
-          <h1 className="dark:text-[#d8d6d6] text-black lg:text-6xl text-5xl font-bold text-nowrap">
+          <h1 className="dark:text-[#d8d6d6] text-black lg:text-6xl text-4xl font-bold text-nowrap">
             Favour Sunday.
           </h1>
-          <h2 className="dark:text-[#9e9b9b] text-black lg:text-5xl text-4xl font-bold lg:w-[90%] w-[100%] lg:leading-[64px] lg:mb-8 mb-4 text-nowrap">
+          <h2 className="dark:text-[#9e9b9b] text-black lg:text-5xl text-3xl font-bold lg:w-[90%] w-[100%] lg:leading-[64px] lg:mb-8 mb-4 text-nowrap">
             FrontEnd Developer, who <br className="flex"/>Loves Playing Chess
           </h2>
           <div>
-            <span className="text-[#47eaff]">Fun Fact</span>
+            <span className="dark:text-[#47eaff] text-blue-800">Fun Fact</span>
             <p className="mt-3 mb-2 dark:text-[silver] text-black">
               Gave up going to Medical school Just to Pursue what i love{" "}
               {"<PROGRAMMING>"}{" "}
@@ -52,7 +50,7 @@ export const Hero = () => {
         </div>
         <div className="sm:flex fixed gap-3 mt-[90vh] top-0 left-0 ml-[64px] hidden">
           {SideItems.map((items, index) => (
-            <Link href={items.link} key={index} className="text-[#47eaff]">
+            <Link href={items.link} key={index} className="dark:text-[#47eaff] text-blue-800">
               <Icon icon={items.src}/>
             </Link>
           ))}
