@@ -14,7 +14,7 @@ export const Hero = () => {
     <section className="h-[100vh] w-full dark:bg-[#0a0a0a]">
       <div className="absolute top-0 left-0 w-full h-[100vh]">
         <Header />
-        <div className="flex lg:ml-16 ml-0 mt-20 lg:px-24 px-10 ">
+        <div className="flex lg:ml-16 ml-0 lg:mt-20 mt-[72px] lg:px-24 px-10 ">
           <div className="flex flex-col gap-3">
           <span className="dark:text-[#47eaff] text-blue-800 font-semibold text-xl">
             Hello i&apos;m
