@@ -38,7 +38,7 @@ export const Hero = () => {
           </div>
           </div>
 
-          <div>
+          <div className="lg:block hidden">
             <Image 
              src="/moon2.png"
              alt="moon"
