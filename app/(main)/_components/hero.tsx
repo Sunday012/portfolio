@@ -27,8 +27,8 @@ export const Hero = () => {
   }
 
   return (
-    <section className="h-[100vh] w-full dark:bg-[#0a0a0a]">
-      <div className="absolute top-0 left-0 w-full h-[100vh]">
+    <section className="h-full w-full dark:bg-[#0a0a0a]">
+      <div className="w-full lg:h-[100vh] h-full">
         <Header />
         <motion.div className="flex lg:ml-16 ml-0 lg:mt-20 mt-[74px] lg:px-24 px-10 "
         variants={heroVar}

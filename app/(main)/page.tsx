@@ -22,7 +22,7 @@ const pageVariants = {
     variants={pageVariants}
     initial="initial"
     animate="animate"
-    className="w-full h-full dark:bg-[#191919] bg-[#f4f4f4]"
+    className="w-full h-full dark:bg-[#0a0a0a] bg-[#f4f4f4]"
     >
        <Hero />
        <About />
