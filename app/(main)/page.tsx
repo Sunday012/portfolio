@@ -13,7 +13,7 @@ const pageVariants = {
         transition:{
             duration: 2,
             ease: "easeInOut",
-            delay: 5
+            delay: 4
         }
     }
 }
