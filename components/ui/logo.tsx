@@ -10,14 +10,14 @@ export const Logo = () => {
         alt="logo"
         width={100}
         height={10}
-        className="dark:hidden w-16 pt-4"
+        className="dark:hidden lg:w-16 w-10 pt-4"
       />
       <Image
         src="/silver-logo.svg"
         alt="logo"
         width={100}
         height={10}
-        className="hidden dark:block w-16 pt-4"
+        className="hidden dark:block lg:w-16 w-10 pt-4"
       />
     </Link>
   );
