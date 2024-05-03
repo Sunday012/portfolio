@@ -4,6 +4,7 @@ import {motion} from "framer-motion"
 import { Hero } from "./_components/hero"
 import { About } from "./_components/about";
 import Projects from "./_components/projects";
+
 const Home = () => {
 const pageVariants = {
     initial:{

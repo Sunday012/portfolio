@@ -2,6 +2,14 @@
 import React from "react";
 import { CompaniesDetails, Companies } from "@/constants";
 import { useState } from "react";
+import Link from "next/link";
+import { MdDoubleArrow } from "react-icons/md"
+import { Sora } from "next/font/google";
+
+const sora = Sora({
+  weight: ["200","400","500"],
+  subsets: ["latin"]
+})
 export const About = () => {
   const [selectedCompany, setSelectedCompany] = useState("Vierra LLC");
   return (
@@ -14,7 +22,7 @@ export const About = () => {
           <div className="flex items-center border-b dark:border-b-[#9e9b9b] border-b-blue-800">
             {Companies.map((place, id) => (
               <button
-                className={`py-5 px-10 hover:bg-slate-300 dark:hover:bg-stone-600 dark:hover:text-[#00d4ff] hover:text-blue-800 
+                className={`py-5 lg:px-10 px-4 hover:bg-slate-300 dark:hover:bg-stone-600 dark:hover:text-[#00d4ff] hover:text-blue-800 
             ${
               selectedCompany === place.name
                 ? "bg-slate-300 dark:bg-stone-600 dark:text-[#00d4ff] text-blue-800 border-b border-b-blue-900 dark:border-b-[#00d4ff]"
@@ -34,10 +42,12 @@ export const About = () => {
             <div className="flex flex-col justify-start mt-6 gap-2" key={id}>
               <div className="text-[#9e9b9b] text-xl font-semibold">
                 {placedetails.role}
-                <span className="dark:text-[#00d4ff] text-blue-800">
+                <Link 
+                href={placedetails.link}
+                className="dark:text-[#00d4ff] text-blue-800">
                   {" "}
                   @{placedetails.name}
-                </span>
+                </Link>
               </div>
               <span className="text-[#9e9b9b] mb-4">
                 {placedetails.dateworked}
@@ -45,10 +55,13 @@ export const About = () => {
               <div className="flex flex-col items-center justify-center">
                 {placedetails.workdone.map((work, id) => (
                   <ul
-                    className="text-[#9e9b9b] flex flex-col gap-4 w-[70%]"
+                    className="text-[#9e9b9b] flex flex-col gap-4 lg:w-[70%] w-full"
                     key={id}
                   >
-                    <li>{work.task}</li>
+                    <li className="flex gap-4">
+                      <MdDoubleArrow size={32} className="dark:text-[#00d4ff] text-blue-800"/>
+                      {work.task}
+                    </li>
                   </ul>
                 ))}
               </div>
