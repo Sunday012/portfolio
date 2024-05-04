@@ -16,6 +16,9 @@ module.exports = {
       },
     },
     extend: {
+      backgroundColor:{
+        "blur": "rgb(225, 225, 225, 0.1)"
+      },
       keyframes: {
         "accordion-down": {
           from: { height: 0 },

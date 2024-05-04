@@ -49,3 +49,19 @@ export const CompaniesDetails = [
         {task: "Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders"},
     ]},
 ]
+
+export const ProjectDetails = [
+    {src: "/movieapp.jpg",name:"Movie Net", context: "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.", stacks:[
+        {stack: "React + vite"},
+        {stack: "JavaScript"},
+        {stack: "MovieApi"},
+        {stack: "A.i Api"},
+        {stack: "Skeleton Loader"},
+    ], github:"www.github.com", live: "www.github.com"},
+    {src: "/movieapp.jpg",name:"Twitter Clone", context: "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, this course covers everything from explaining the principles of REST APIs to implementing Spotify's OAuth flow and fetching API data in a React app. By the end of the course, you’ll have an app deployed to the internet you can add to your portfolio.", stacks:[
+        {stack: "TypeScript"},
+        {stack: "Supabase"},
+        {stack: "Next.js"},
+        {stack: "Tailwind Css"},
+    ], github:"www.github.com", live: "www.github.com"},
+]

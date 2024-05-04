@@ -36,7 +36,7 @@ export const GlowCursor = () => {
 
     return (
         <div
-            className={`bg-gradient-to-b from-blue-800 to-[#00d4ff] pointer-events-none w-52 h-52 fixed rounded-full transition border-[#00d4ff] outline-[#00d4ff] blur-3xl ${isVisible ? 'block' : 'hidden'}`}
+            className={`bg-gradient-to-b z-30 from-blue-800 to-[#00d4ff] pointer-events-none w-52 h-52 fixed rounded-full transition border-[#00d4ff] outline-[#00d4ff] blur-3xl ${isVisible ? 'block' : 'hidden'}`}
             ref={cursorRef}
             style={{
                 left: `${position.x - 16}px`,
