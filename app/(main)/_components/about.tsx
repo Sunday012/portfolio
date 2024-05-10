@@ -13,7 +13,7 @@ const sora = Sora({
 export const About = () => {
   const [selectedCompany, setSelectedCompany] = useState("Vierra LLC");
   return (
-    <section className="mt-24 lg:mt-0">
+    <section className="mt-24">
       <div className="flex flex-col gap-4 items-center justify-center">
         <h2 className="dark:text-[#9e9b9b] text-blue-800 lg:text-3xl text-xl font-bold">
           My Experience
@@ -26,7 +26,7 @@ export const About = () => {
             ${
               selectedCompany === place.name
                 ? "bg-slate-300 dark:bg-stone-600 dark:text-[#00d4ff] text-blue-800 border-b border-b-blue-900 dark:border-b-[#00d4ff]"
-                : "text-[#9e9b9b]"
+                : "dark:text-[#9e9b9b] text-[#141C3A]"
             } 
             rounded-t-md items-center text-nowrap w-full`}
                 key={id}
@@ -40,7 +40,7 @@ export const About = () => {
             (details) => details.name === selectedCompany
           ).map((placedetails, id) => (
             <div className="flex flex-col justify-start mt-6 gap-2" key={id}>
-              <div className="text-[#9e9b9b] text-xl font-semibold">
+              <div className="dark:text-[#9e9b9b] text-[#141C3A] text-xl font-semibold">
                 {placedetails.role}
                 <Link 
                 href={placedetails.link}
@@ -49,13 +49,13 @@ export const About = () => {
                   @{placedetails.name}
                 </Link>
               </div>
-              <span className="text-[#9e9b9b] mb-4">
+              <span className="dark:text-[#9e9b9b] text-[#141C3A] mb-4">
                 {placedetails.dateworked}
               </span>
               <div className="flex flex-col items-center justify-center">
                 {placedetails.workdone.map((work, id) => (
                   <ul
-                    className="text-[#9e9b9b] flex flex-col gap-4 lg:w-[70%] w-full"
+                    className="dark:text-[#9e9b9b] text-[#141C3A] flex flex-col gap-4 lg:w-[70%] w-full"
                     key={id}
                   >
                     <li className="flex gap-4">

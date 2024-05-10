@@ -6,6 +6,8 @@ import { About } from "./_components/about";
 import Projects from "./_components/projects";
 import MySelf from "./_components/me";
 import Contact from "./_components/contact";
+import Testimonials from "./_components/testimonials";
+import Footer from "./_components/footer";
 
 const Home = () => {
 const pageVariants = {
@@ -33,6 +35,7 @@ const pageVariants = {
        <About />
        <Projects />
        <Contact />
+       <Footer />
     </motion.div>
   );
 };
