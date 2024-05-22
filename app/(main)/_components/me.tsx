@@ -1,9 +1,29 @@
 import Image from "next/image";
-
+import { motion } from "framer-motion";
 export default function MySelf() {
+  const meVar = {
+    initial: {
+      y: 100,
+      opacity: 0,
+    },
+    animate: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 1,
+        ease: "easeOut",
+      },
+    },
+  };
   return (
     <div className="mt-24 lg:mt-6">
-      <div className="flex flex-col gap-2 items-center justify-between lg:px-24 px-10">
+      <motion.div
+        className="flex flex-col gap-2 items-center justify-between lg:px-24 px-10"
+        variants={meVar}
+        initial="initial"
+        whileInView="animate"
+        viewport={{once : true}}
+      >
         <h1 className="dark:text-[#00d4ff] text-blue-800 lg:text-3xl text-xl font-bold mb-4">
           About Me
         </h1>
@@ -50,7 +70,7 @@ export default function MySelf() {
             </ul>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

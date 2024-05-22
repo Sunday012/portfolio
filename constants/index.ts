@@ -50,7 +50,7 @@ export const CompaniesDetails = [
 ]
 
 export const ProjectDetails = [
-    {src: "/movieapp.jpg",name:"Movie Net", context: "A website that keeps you up to date with trending movies and tv shows, you won't be worried about watching your favourite Tv-show and movie ever again.", stacks:[
+    {src: "/movieapp.jpg",name:"Movie Net", context: "A website that keeps you up to date with trending movies and tv shows, you won't be worried about not watching your favourite Tv-show and movie ever again.", stacks:[
         {stack: "React + vite"},
         {stack: "JavaScript"},
         {stack: "MovieApi"},
@@ -66,40 +66,40 @@ export const ProjectDetails = [
 ]
 
 export const OtherProjectDetails = [
-    {name:"Flare App", context: "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, ", stacks:[
+    {name:"Flare App", context: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quisquam autem. Voluptas doloribus et sint culpa ullam facere quisquam, doloremque, repellat vel tenetur dolorum repudiandae eligendi aliquid quos fuga dolor!", stacks:[
         {stack: "NextJS"},
         {stack: "JavaScript"},
         {stack: "Mongodb"},
         {stack: "Next auth"},
         {stack: "prisma"},
     ], github:"www.github.com", live: "https://movie-appbase.vercel.app/"},
-    {name:"Berny", context: "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, ", stacks:[
+    {name:"Berny", context: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quisquam autem. Voluptas doloribus et sint culpa ullam facere quisquam, doloremque, repellat vel tenetur dolorum repudiandae eligendi aliquid quos fuga dolor!", stacks:[
         {stack: "TypeScript"},
         {stack: "Prisma"},
         {stack: "Mongodb"},
         {stack: "Tailwind Css"},
         {stack : "Clerk auth"}
     ], github:"www.github.com", live: "https://twitter-clone-black-eight.vercel.app/"},
-    {name:"MERN Event App", context: "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories,", stacks:[
+    {name:"MERN Event App", context: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quisquam autem. Voluptas doloribus et sint culpa ullam facere quisquam, doloremque, repellat vel tenetur dolorum repudiandae eligendi aliquid quos fuga dolor!", stacks:[
         {stack: "TypeScript"},
         {stack: "Mongodb"},
         {stack: "Reactjs"},
         {stack: "Express.js"},
         {stack: "Node.js"}
     ], github:"www.github.com", live: "https://twitter-clone-black-eight.vercel.app/"},
-    {name:"Job search", context: "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, ", stacks:[
+    {name:"Job search", context: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quisquam autem. Voluptas doloribus et sint culpa ullam facere quisquam, doloremque, repellat vel tenetur dolorum repudiandae eligendi aliquid quos fuga dolor! ", stacks:[
         {stack: "React Native"},
         {stack: "Supabase"},
         {stack: "Next.js"},
         {stack: "Tailwind Css"},
     ], github:"www.github.com", live: "https://twitter-clone-black-eight.vercel.app/"},
-    {name:"PERN To do App", context: "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, ", stacks:[
+    {name:"PERN To do App", context: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quisquam autem. Voluptas doloribus et sint culpa ullam facere quisquam, doloremque, repellat vel tenetur dolorum repudiandae eligendi aliquid quos fuga dolor!", stacks:[
         {stack: "JavaScript"},
         {stack: "postgresql"},
         {stack: "React"},
         {stack: "Tailwind Css"},
     ], github:"www.github.com", live: "https://twitter-clone-black-eight.vercel.app/"},
-    {name:"Weather App", context: "Having struggled with understanding how the Spotify OAuth flow works, I made the course I wish I could have had. Unlike tutorials that only cover a few concepts and leave you with half-baked GitHub repositories, ", stacks:[
+    {name:"Weather App", context: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quisquam autem. Voluptas doloribus et sint culpa ullam facere quisquam, doloremque, repellat vel tenetur dolorum repudiandae eligendi aliquid quos fuga dolor!", stacks:[
         {stack: "JavaScript"},
         {stack: "React.js"},
         {stack: "Weather API"},

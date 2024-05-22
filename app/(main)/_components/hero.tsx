@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 
 import { Header } from "./header";
-import { animate, easeIn, easeInOut, easeOut, motion } from "framer-motion";
+import { motion } from "framer-motion";
 
 import { SideItems } from "@/constants";
 import Image from "next/image";

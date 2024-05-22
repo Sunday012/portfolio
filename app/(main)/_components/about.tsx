@@ -3,18 +3,38 @@ import React from "react";
 import { CompaniesDetails, Companies } from "@/constants";
 import { useState } from "react";
 import Link from "next/link";
-import { MdDoubleArrow } from "react-icons/md"
+import { MdDoubleArrow } from "react-icons/md";
 import { Sora } from "next/font/google";
-
+import { motion } from "framer-motion";
 const sora = Sora({
-  weight: ["200","400","500"],
-  subsets: ["latin"]
-})
+  weight: ["200", "400", "500"],
+  subsets: ["latin"],
+});
 export const About = () => {
+  const aboutVar = {
+    initial: {
+      y: 100,
+      opacity: 0,
+    },
+    animate: {
+      y: 0,
+      opacity: 1,
+      transition: {
+        duration: 1,
+        ease: "easeOut",
+      },
+    },
+  };
   const [selectedCompany, setSelectedCompany] = useState("Vierra LLC");
   return (
     <section className="mt-24">
-      <div className="flex flex-col gap-4 items-center justify-center">
+      <motion.div
+        className="flex flex-col gap-4 items-center justify-center"
+        variants={aboutVar}
+        initial="initial"
+        whileInView="animate"
+        viewport={{once : true}}
+      >
         <h2 className="dark:text-[#9e9b9b] text-blue-800 lg:text-3xl text-xl font-bold">
           My Experience
         </h2>
@@ -42,9 +62,10 @@ export const About = () => {
             <div className="flex flex-col justify-start mt-6 gap-2" key={id}>
               <div className="dark:text-[#9e9b9b] text-[#141C3A] text-xl font-semibold">
                 {placedetails.role}
-                <Link 
-                href={placedetails.link}
-                className="dark:text-[#00d4ff] text-blue-800">
+                <Link
+                  href={placedetails.link}
+                  className="dark:text-[#00d4ff] text-blue-800"
+                >
                   {" "}
                   @{placedetails.name}
                 </Link>
@@ -60,7 +81,10 @@ export const About = () => {
                   >
                     <li className="flex gap-4">
                       <span>
-                      <MdDoubleArrow size={18} className="dark:text-[#00d4ff] text-blue-800"/>
+                        <MdDoubleArrow
+                          size={18}
+                          className="dark:text-[#00d4ff] text-blue-800"
+                        />
                       </span>
                       {work.task}
                     </li>
@@ -70,7 +94,7 @@ export const About = () => {
             </div>
           ))}
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
