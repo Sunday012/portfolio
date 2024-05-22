@@ -1,5 +1,4 @@
 "use client";
-import React from "react";
 import { CompaniesDetails, Companies } from "@/constants";
 import { useState } from "react";
 import Link from "next/link";
@@ -10,7 +9,9 @@ const sora = Sora({
   weight: ["200", "400", "500"],
   subsets: ["latin"],
 });
+
 export const About = () => {
+  
   const aboutVar = {
     initial: {
       y: 100,

@@ -6,10 +6,14 @@ import { About } from "./_components/about";
 import Projects from "./_components/projects";
 import MySelf from "./_components/me";
 import Contact from "./_components/contact";
-import Testimonials from "./_components/testimonials";
 import Footer from "./_components/footer";
+import { useRef } from "react";
 
 const Home = () => {
+  const aboutRef = useRef(null)
+  const experienceRef = useRef(null)
+  const projectRef = useRef(null)
+  const contactRef = useRef(null)
 const pageVariants = {
     initial:{
         opacity: 0

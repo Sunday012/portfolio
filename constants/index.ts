@@ -6,22 +6,22 @@ import { BiLogoGmail } from "react-icons/bi";
 export const SideItems = [
     {
         text: "Linkedin",
-        link:"",
+        link:"https://www.linkedin.com/in/sunday-favour-6059682a2/",
         src: FaLinkedin
     },
     {
         text: "GitHub",
-        link:"",
+        link:"https://github.com/Sunday012",
         src: FaGithub
     },
     {
         text: "Whatsapp",
-        link:"",
+        link:"https://wa.me/+2349092001540",
         src: IoLogoWhatsapp
     },
     {
         text: "Mail",
-        link:"",
+        link:"mailto:sundayfavour997@gmail",
         src: BiLogoGmail
     }
 ]

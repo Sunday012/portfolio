@@ -1,4 +1,4 @@
-import React from "react";
+import React, { RefObject } from "react";
 import Link from "next/link";
 
 import { Header } from "./header";
@@ -7,6 +7,8 @@ import { motion } from "framer-motion";
 import { SideItems } from "@/constants";
 import Image from "next/image";
 import { Icon } from "@/components/icon";
+
+
 
 export const Hero = () => {
   const heroVar = {

@@ -1,5 +1,4 @@
-import React from "react";
-import Image from "next/image";
+import React, { LegacyRef, useRef } from "react";
 import Link from "next/link";
 import { IoRocketSharp } from "react-icons/io5";
 import { FaGithub } from "react-icons/fa";
@@ -11,6 +10,7 @@ const sora = Sora({
   subsets: ["latin"],
   weight: ["400", "500"],
 });
+
 export default function Projects() {
   const projectVar = {
     initial: {
@@ -27,7 +27,7 @@ export default function Projects() {
     },
   };
   return (
-    <section className="mt-24">
+    <section className="mt-24" >
       <motion.div
         className="flex flex-col items-center gap-20"
         variants={projectVar}
