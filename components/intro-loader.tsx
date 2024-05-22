@@ -41,7 +41,7 @@ export const Loader = () => {
   };
 
   return showLoader ? (
-    <div className="fixed right-0 top-0 left-0 w-full h-[100vh] bg-[#ffff] dark:bg-[#0a0a0a] z-[9999]">
+    <div className="fixed right-0 top-0 left-0 w-full h-[100vh] bg-[#ffff] dark:bg-[#0c0e20] z-[9999]">
       <div className="w-full h-full flex items-center justify-center">
         <div
         className="hidden lg:flex"
