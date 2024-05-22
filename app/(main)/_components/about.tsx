@@ -59,7 +59,9 @@ export const About = () => {
                     key={id}
                   >
                     <li className="flex gap-4">
-                      <MdDoubleArrow size={32} className="dark:text-[#00d4ff] text-blue-800"/>
+                      <span>
+                      <MdDoubleArrow size={18} className="dark:text-[#00d4ff] text-blue-800"/>
+                      </span>
                       {work.task}
                     </li>
                   </ul>

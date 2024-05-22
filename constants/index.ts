@@ -34,19 +34,18 @@ export const Companies = [
 
 export const CompaniesDetails = [
     {name: "Vierra LLC",link:"https://vierradev.com",role: "Front End Developer",dateworked: "January 2024 - till date",workdone: [
-        {task: "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more"},
-        {task: "Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements"},
-        {task: "Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders"},
+        {task: "Handled all data going into the database through a form or from somewhere else making them all safe."},
+        {task: "refurnished a client website by implementing a new dashboard to track all products ordered or downloaded"},
+        {task: "Collaborated with designers, project managers, and other engineers to transform creative concepts into production realities for clients"},
     ]},
     {name: "GCCC",link:"https://vierradev.com",role: "Front End Developer",dateworked: "August 2023 - September 2023",workdone: [
-        {task: "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more"},
-        {task: "Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements"},
-        {task: "Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders"},
+        {task: "Built a crypto dashoard alongside other developers"},
+        {task: "Won the best Frontend developer award"},
     ]},
     {name: "Forage",link:"https://vierradev.com",role: "Front End Intern",dateworked: "November 2023 - December 2023",workdone: [
-        {task: "Deliver high-quality, robust production code for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more"},
-        {task: "Work alongside creative directors to lead the research, development, and architecture of technical solutions to fulfill business requirements"},
-        {task: "Collaborate with designers, project managers, and other engineers to transform creative concepts into production realities for clients and stakeholders"},
+        {task: "Fixed reported issues made about the backpack app. for example with the application being slowI decided to implement lazy loading for the images and also used suspense and a placeholderwhile contentwere stillloading"},
+        {task: "Helped in improving the backpack appwith the proper use of React.js."},
+        {task: "Tested and implemented more featuresinto the application, for example i added a calendarcomponent that tracksthe date and schedulesfor travel."},
     ]},
 ]
 

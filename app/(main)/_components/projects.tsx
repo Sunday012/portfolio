@@ -34,13 +34,15 @@ export default function Projects() {
           role="link"
           onClick={() => window.location.href == project.live}
           key={id}
-          className="dark:bg-blur bg-blursm rounded-md flex flex-col items-center w-full p-4 gap-2 shadow-lg">
+          className="dark:bg-blur bg-blursm rounded-md flex flex-col lg:items-center items-start w-full p-4 gap-2 shadow-lg">
             <h2 className="text-[#141C3A]  dark:text-[#00d4ff] lg:text-2xl text-xl font-bold">
               {project.name}
             </h2>
-            <p className="text-[#141C3A] dark:text-[#9e9b9b] ">
+            <div className="flex w-full items-start">
+            <p className="text-[#141C3A] dark:text-[#9e9b9b] w-full text-start">
              {project.context}
             </p>
+            </div>
             <div className="flex gap-2 text-[#141C3A] dark:text-[#9e9b9b] flex-wrap w-full items-start mt-10">
               {project.stacks.map((stack, id) => (
                 <p key={id}>{stack.stack}</p>
