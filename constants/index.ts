@@ -72,7 +72,7 @@ export const OtherProjectDetails = [
         {stack: "Mongodb"},
         {stack: "Next auth"},
         {stack: "prisma"},
-    ], github:"www.github.com", live: "https://movie-appbase.vercel.app/"},
+    ], github:"www.github.com", live: "https://flare-app-rho.vercel.app"},
     {name:"Berny", context: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quisquam autem. Voluptas doloribus et sint culpa ullam facere quisquam, doloremque, repellat vel tenetur dolorum repudiandae eligendi aliquid quos fuga dolor!", stacks:[
         {stack: "TypeScript"},
         {stack: "Prisma"},
@@ -80,29 +80,29 @@ export const OtherProjectDetails = [
         {stack: "Tailwind Css"},
         {stack : "Clerk auth"}
     ], github:"www.github.com", live: "https://twitter-clone-black-eight.vercel.app/"},
-    {name:"MERN Event App", context: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quisquam autem. Voluptas doloribus et sint culpa ullam facere quisquam, doloremque, repellat vel tenetur dolorum repudiandae eligendi aliquid quos fuga dolor!", stacks:[
-        {stack: "TypeScript"},
-        {stack: "Mongodb"},
-        {stack: "Reactjs"},
-        {stack: "Express.js"},
-        {stack: "Node.js"}
-    ], github:"www.github.com", live: "https://twitter-clone-black-eight.vercel.app/"},
-    {name:"Job search", context: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quisquam autem. Voluptas doloribus et sint culpa ullam facere quisquam, doloremque, repellat vel tenetur dolorum repudiandae eligendi aliquid quos fuga dolor! ", stacks:[
-        {stack: "React Native"},
-        {stack: "Supabase"},
-        {stack: "Next.js"},
-        {stack: "Tailwind Css"},
-    ], github:"www.github.com", live: "https://twitter-clone-black-eight.vercel.app/"},
+    // {name:"MERN Event App", context: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quisquam autem. Voluptas doloribus et sint culpa ullam facere quisquam, doloremque, repellat vel tenetur dolorum repudiandae eligendi aliquid quos fuga dolor!", stacks:[
+    //     {stack: "TypeScript"},
+    //     {stack: "Mongodb"},
+    //     {stack: "Reactjs"},
+    //     {stack: "Express.js"},
+    //     {stack: "Node.js"}
+    // ], github:"www.github.com", live: "https://twitter-clone-black-eight.vercel.app/"},
+    // {name:"Job search", context: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quisquam autem. Voluptas doloribus et sint culpa ullam facere quisquam, doloremque, repellat vel tenetur dolorum repudiandae eligendi aliquid quos fuga dolor! ", stacks:[
+    //     {stack: "React Native"},
+    //     {stack: "Supabase"},
+    //     {stack: "Next.js"},
+    //     {stack: "Tailwind Css"},
+    // ], github:"www.github.com", live: "https://twitter-clone-black-eight.vercel.app/"},
     {name:"PERN To do App", context: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quisquam autem. Voluptas doloribus et sint culpa ullam facere quisquam, doloremque, repellat vel tenetur dolorum repudiandae eligendi aliquid quos fuga dolor!", stacks:[
         {stack: "JavaScript"},
         {stack: "postgresql"},
         {stack: "React"},
         {stack: "Tailwind Css"},
-    ], github:"www.github.com", live: "https://twitter-clone-black-eight.vercel.app/"},
+    ], github:"www.github.com", live: "https://todo-app-weld-six.vercel.app/"},
     {name:"Weather App", context: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, quisquam autem. Voluptas doloribus et sint culpa ullam facere quisquam, doloremque, repellat vel tenetur dolorum repudiandae eligendi aliquid quos fuga dolor!", stacks:[
         {stack: "JavaScript"},
         {stack: "React.js"},
         {stack: "Weather API"},
         {stack: "React-icons"},
-    ], github:"www.github.com", live: "https://twitter-clone-black-eight.vercel.app/"},
+    ], github:"www.github.com", live: "https://weather-app-chi-nine-77.vercel.app"},
 ]
