@@ -42,7 +42,7 @@ export default function Projects() {
         </div>
 
         {ProjectDetails.map((project, id) => (
-          <BigProject project={project} id={id} />
+          <BigProject project={project} id={id} key={id} />
         ))}
 
         <h2 className="dark:text-[#9e9b9b] text-blue-800 lg:text-xl text-xl font-bold">
